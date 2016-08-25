@@ -1,13 +1,10 @@
 ﻿namespace Apollo.ServiceModel.Sample
 {
+    /// <summary>
+    /// Service responsible for carrying out calculations
+    /// </summary>
     public class CalculatorService : ICalculator
     {
-        /// <summary>
-        /// Service responsible for carrying out calculations
-        /// </summary>
-        /// <param name="n1"></param>
-        /// <param name="n2"></param>
-        /// <returns></returns>
         public double Add(double n1, double n2)
         {
             double result = n1 + n2;
