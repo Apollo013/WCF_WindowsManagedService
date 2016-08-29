@@ -7,6 +7,8 @@ Developed with VS 2015 Community.
 
 The resources below will show you how to install & run the service.
 
+This is just a simple calculator service hosted as a windows service and accessed via console client.
+
 ---
 
 ###Resources
