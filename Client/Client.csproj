@@ -55,12 +55,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Service References\CalculatorServiceRef\Apollo.ServiceModel.Sample.wsdl" />
-    <None Include="Service References\CalculatorServiceRef\Apollo.ServiceModel.Sample.xsd">
+    <None Include="Service References\CalculatorServiceRef\Apollo.ServiceModel.Sample1.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\CalculatorServiceRef\service.wsdl" />
-    <None Include="Service References\CalculatorServiceRef\service.xsd">
+    <None Include="Service References\CalculatorServiceRef\service1.wsdl" />
+    <None Include="Service References\CalculatorServiceRef\service1.xsd">
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
@@ -71,6 +70,7 @@
     <WCFMetadataStorage Include="Service References\CalculatorServiceRef\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Service References\CalculatorServiceRef\Apollo.ServiceModel.Sample1.wsdl" />
     <None Include="Service References\CalculatorServiceRef\configuration91.svcinfo" />
   </ItemGroup>
   <ItemGroup>

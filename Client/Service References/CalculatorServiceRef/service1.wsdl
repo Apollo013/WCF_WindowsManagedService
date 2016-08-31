@@ -300,9 +300,9 @@
   </wsdl:binding>
   <wsdl:service name="CalculatorService">
     <wsdl:port name="WSHttpBinding_ICalculator" binding="tns:WSHttpBinding_ICalculator">
-      <soap12:address location="http://localhost:8000/ServiceModelSamples/service" />
+      <soap12:address location="http://localhost:8932/WCFCalculatorService/service" />
       <wsa10:EndpointReference>
-        <wsa10:Address>http://localhost:8000/ServiceModelSamples/service</wsa10:Address>
+        <wsa10:Address>http://localhost:8932/WCFCalculatorService/service</wsa10:Address>
         <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
           <Spn>host/Apollo-HP</Spn>
         </Identity>

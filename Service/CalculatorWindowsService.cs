@@ -9,7 +9,7 @@ namespace Apollo.ServiceModel.Sample
         public CalculatorWindowsService()
         {
             // Name the Windows Service
-            ServiceName = "WCFWindowsServiceSample";
+            ServiceName = "WCFCalculatorService";
         }
 
         public static void Main()

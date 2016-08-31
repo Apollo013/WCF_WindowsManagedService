@@ -19,13 +19,13 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://localhost:8000/ServiceModelSamples/service/mex" Protocol="mex" SourceId="1" />
+    <MetadataSource Address="http://localhost:8932/WCFCalculatorService/service/mex" Protocol="mex" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="Apollo.ServiceModel.Sample.wsdl" MetadataType="Wsdl" ID="fdec836e-73e7-464c-8c04-69f87d7f5002" SourceId="1" SourceUrl="http://localhost:8000/ServiceModelSamples/service/mex" />
-    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="fe214998-fc36-41c5-b33b-c208f5311a65" SourceId="1" SourceUrl="http://localhost:8000/ServiceModelSamples/service/mex" />
-    <MetadataFile FileName="Apollo.ServiceModel.Sample.xsd" MetadataType="Schema" ID="402148be-178b-4a3e-9904-ef6b1aeafd6c" SourceId="1" SourceUrl="http://localhost:8000/ServiceModelSamples/service/mex" />
-    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="6eb13658-2563-4f4b-a7b4-980d59d44f91" SourceId="1" SourceUrl="http://localhost:8000/ServiceModelSamples/service/mex" />
+    <MetadataFile FileName="Apollo.ServiceModel.Sample1.wsdl" MetadataType="Wsdl" ID="13d241b3-07f2-431c-ad15-5d85ea16dcfc" SourceId="1" SourceUrl="http://localhost:8932/WCFCalculatorService/service/mex" />
+    <MetadataFile FileName="service1.wsdl" MetadataType="Wsdl" ID="666d1ad4-1e57-4c8d-ab1e-05a5122ec051" SourceId="1" SourceUrl="http://localhost:8932/WCFCalculatorService/service/mex" />
+    <MetadataFile FileName="Apollo.ServiceModel.Sample1.xsd" MetadataType="Schema" ID="e71624e2-4502-4375-919c-2323fa266869" SourceId="1" SourceUrl="http://localhost:8932/WCFCalculatorService/service/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="6df96661-fa9b-46f6-b90b-7e729a67c30d" SourceId="1" SourceUrl="http://localhost:8932/WCFCalculatorService/service/mex" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

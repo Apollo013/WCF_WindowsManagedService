@@ -17,7 +17,7 @@ namespace Apollo.ServiceModel.Sample
             process = new ServiceProcessInstaller();
             process.Account = ServiceAccount.LocalSystem;
             service = new ServiceInstaller();
-            service.ServiceName = "WCFWindowsServiceSample";
+            service.ServiceName = "WCFCalculatorService";
             Installers.Add(process);
             Installers.Add(service);
         }
