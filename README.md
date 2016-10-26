@@ -1,11 +1,14 @@
 # WCF_WindowsManagedService
+
 A small client / service app demonstrating how to host a wcf service as a managed windows service and then accessing it via a console client app.
 
 ---
 
 Developed with VS 2015 Community.
 
-This app include the installer for this service. The resources below will show you how to install & run the service.
+---
+
+This app includes an installer for this service. The resources below will show you how to install & run the service.
 
 This is just a simple calculator service hosted as a windows service and accessed via console client.
 
